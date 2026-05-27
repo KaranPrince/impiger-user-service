@@ -3,13 +3,10 @@ kind: Component
 
 metadata:
   name: impiger-user-service
-  description: User management microservice for Impiger platform
+  description: User management microservice for Impiger Technologies
 
   annotations:
-    github.com/project-slug: YOUR_GITHUB_USERNAME/impiger-user-service
-    backstage.io/techdocs-ref: dir:.
-    backstage.io/kubernetes-id: impiger-user-service
-    jenkins.io/job-full-name: impiger-user-servic
+    github.com/project-slug: KaranPrince/impiger-user-service
 
 spec:
   type: service
