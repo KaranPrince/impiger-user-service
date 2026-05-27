@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+
+metadata:
+  name: impiger-platform
+  description: Core Impiger internal platform
+
+spec:
+  owner: group:default/platform-engineering
