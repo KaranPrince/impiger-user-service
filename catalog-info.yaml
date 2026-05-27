@@ -7,6 +7,9 @@ metadata:
 
   annotations:
     github.com/project-slug: YOUR_GITHUB_USERNAME/impiger-user-service
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: impiger-user-service
+    jenkins.io/job-full-name: impiger-user-servic
 
 spec:
   type: service
