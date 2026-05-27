@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: impiger-user-service
+  description: User management microservice for Impiger platform
+
+  annotations:
+    github.com/project-slug: YOUR_GITHUB_USERNAME/impiger-user-service
+
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/platform-engineering
+  system: impiger-platform
